@@ -1,0 +1,84 @@
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+
+}
+.border{
+    border: 2px solid cyan;
+}
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: rgba(31, 27, 27, 0.935);
+}
+.rounded{
+    border-radius: 8px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+
+  .absolute1{
+    position: absolute;
+  }
+
+ @media (max-width : 550px){
+    .cardcontainer{
+        margin: 0;
+        justify-content: center;
+    }
+    .card{
+        width: 90vw;
+    }
+
+    .songinfo{
+    position: static;
+}
+.songtimevolume{
+    position: static;
+}
+.songtime{
+    position: static;
+}
+.abovebar{
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    
+}
+.cardcontainer{
+    overflow-y: unset;
+    max-height: unset;
+}
+    
+}
+ 
